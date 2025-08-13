@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@plugin "daisyui";
+
+@custom-variant dark (&:is(.dark *));
+
+@layer base {
+  body {
+    @apply bg-white;
+  }
+  .container{
+    @apply mx-auto max-w-[1440px];
+  }
+
+  .sales-div ul li{
+        /* padding: 0 0.1em 20px 1.5em; */
+        /* margin-top: -0.15em; */
+        margin-bottom:20px;
+        /* text-indent:20px; */
+        color: #36485C;
+        font-size: 18px;
+        /* list-style:none;
+        background-repeat:no-repeat;
+        background-image:url('../public/assets/tick.png'); */
+      }
+      .sales-div ul{
+            list-style-image: url('../public/assets/tick.png');
+            padding-left: 33px;
+            padding-bottom: 40px;
+    }
+}
