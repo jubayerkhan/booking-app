@@ -1,4 +1,5 @@
 import Customer from "./components/Customer";
+import Footer from "./components/Footer";
 import { Growth } from "./components/Growth";
 import { Hero } from "./components/Hero";
 import { Question } from "./components/Question";
@@ -13,6 +14,7 @@ export default function Home() {
         <Customer></Customer>
         <Growth></Growth>
         <Question></Question>
+        <Footer/>
       </div>
     </>
   );

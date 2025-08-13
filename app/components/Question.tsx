@@ -1,9 +1,9 @@
 export function Question() {
     return (
-        <div className="container">
+        <div className="container pb-10">
             <div className="max-w-[519px]">
                 <p className="text-[#EB2891]">Frequently Asked Questions</p>
-                <h1>Let’s clarify some of your questions</h1>
+                <h1 className="text-black my-5">Let’s clarify some of your questions</h1>
             </div>
             <div>
                 <div className="collapse collapse-plus bg-[#E3F1FF] mb-4">
